@@ -1,6 +1,6 @@
 <div>
 
-    ul>(li>a{$})*8
+    <!-- ul>(li>a{$})*8
 
     <section class="cards">
         <div class="carads-item">
@@ -28,5 +28,5 @@
             <div class="cards-item-desc">Lorem10</div>
         </div>
     </section>
-    
+     -->
 </div>
