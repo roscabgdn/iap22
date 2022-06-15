@@ -30,13 +30,9 @@ function bake_my_wp_remove_storefront_sidebar() {
 	}
 }
 
-/**
- * Aici e codul la care as vrea sa te uiti
- */
-	
 add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text', '10' );
 function iap_show_text() {
-	echo '<p>am facut un hook P10</p>';
+	echo '<p>asta ar trebui sa fie p123213213131</p>';
 }
 
 add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text2', '20' );
