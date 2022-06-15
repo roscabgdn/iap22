@@ -1,0 +1,28 @@
+/*
+Theme Name:   	IAP Theme
+Theme URI:    	https://netlogiq.ro
+Author:       	Rosca Bogdan
+Author URI:     https://netlogiq.ro
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+*/
+
+body.woocommerce #primary,
+body.woocommerce-cart #primary,
+body.woocommerce-checkout #primary {
+	/* width: 100%; */
+}
+ 
+/* 
+.left-sidebar .content-area {
+	width: 73.9130434783%;
+	float: left;
+	margin-right: 4.347826087%;
+}
+.left-sidebar .widget-area {
+	margin-right:0;
+} */
