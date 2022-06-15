@@ -32,34 +32,34 @@ function bake_my_wp_remove_storefront_sidebar() {
 
 
 	
-// add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text', '10' );
-// function iap_show_text() {
-// 	echo '<p>am facut un hook P10</p>';
-// }
+add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text', '10' );
+function iap_show_text() {
+	echo '<p>am facut un hook P10</p>';
+}
 
-// add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text2', '20' );
-// function iap_show_text2() {
-// 	echo '<p>am facut un hook P11</p>';
-// }
+add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text2', '20' );
+function iap_show_text2() {
+	echo '<p>am facut un hook P11</p>';
+}
 
-// add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text3', '30' );
-// function iap_show_text3() {
-// 	echo '<p>am facut un hook P12</p>';
-// }
+add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text3', '30' );
+function iap_show_text3() {
+	echo '<p>am facut un hook P12</p>';
+}
 
 
-// add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text4', '11' );
-// function iap_show_text4() {
-// 	echo '<p>am facut un hook P14</p>';
-// }
+add_action( 'woocommerce_after_shop_loop_item', 'iap_show_text4', '11' );
+function iap_show_text4() {
+	echo '<p>am facut un hook P14</p>';
+}
 
-// add_action( 'woocommerce_single_product_summary', 'iap_text_after_title', 18 );
-// function iap_text_after_title() {
-// 	echo '<p>Acest produst este redus!</p>';
-// }
+add_action( 'woocommerce_single_product_summary', 'iap_text_after_title', 18 );
+function iap_text_after_title() {
+	echo '<p>Acest produst este redus!</p>';
+}
 
-// remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
-// add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 20 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 5 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_title', 20 );
 
 
 
